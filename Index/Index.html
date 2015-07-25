@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+        <meta name="Icaro" content="Icaro"> 
+        <style type="text/css">
+            header{
+                background-color: blue;
+                color: white;
+                text-align: center;
+                padding: 5px;
+                height: 80px;
+            }
+
+            nav{
+                background-color: red;
+                height 10px;
+                text-align: center;
+                padding: 5px;
+                height: 50px;
+            }
+
+            section{
+                background-color: green;
+                text-align: center;   
+                float: left;
+                width: 100%;
+                height: 250px;
+            }
+
+            article{
+                background-color: blue;
+                float: left;
+                width: 70%;
+                height: 150px;
+            }
+
+            aside{
+                background-color: yellow;
+                color: green;
+                text-align: center;
+                float: left;
+                width: 50%;
+                height: 300px;
+            }
+
+            footer{
+                width: 100%;
+                background-color: pink;
+                text-align: center;
+                height: 50px;
+                float: left;
+            }     
+
+            p{
+                font-size: 10pt;
+                font-family: "Verdana";
+                color: blue;
+            }
+
+            h{
+                font-size: 16pt;
+                font-family: "Impact";
+                color: red;
+            }
+        </style>
+        
+        <script language = 'javascript'>
+        function imgLetra(letra){
+            switch(letra){
+            case "a":
+            document.getElementById('div_img').innerHTML = "<img src = '/C:/Users/Invicta/Documents/PUC/8%BA%20PER%CDODO/TCC/Site/Index/Imagens/q.jpg' >"; 
+            break;}}
+        </script>  
+
+        <script language = 'javascript'>
+        function somImagem(letra)
+        switch(letra)
+        case "a":
+        audio = document.getElementById('audio');
+         </script>
+
+         
+
+
+        </head>
+             
+        <body>
+            <header>
+            Alfabetização de pessoas com Síndrome de Down
+            </header>
+            <nav>
+            Navegação
+            </nav>
+
+            <aside>
+            <div id = 'div_img'></div>  <!--! Div da imagem de cada letra grande-->
+            
+            <audio controls>
+            <!--<source src="i_am_the_doctor.ogg" type="audio/ogg"> -->
+             <source src="/C:/Users/Invicta/Documents/PUC/8%BA%20PER%CDODO/TCC/Site/Index/Sons/SeuAmorEDemais.mp3" type="audio/mpeg">
+             Seu navegador não possui suporte ao elemento audio
+            </audio>
+
+            <input type="button" value="Enviar" onClick="document.all.music.src='/C:/Users/Invicta/Documents/PUC/8%BA%20PER%CDODO/TCC/Site/Index/Sons/SeuAmorEDemais.mp3' type="audio/mpeg""><p>
+            <bgsound src="#" id=music loop=1 autostart="true">
+ 
+            </aside>
+
+            <section>
+                
+            
+            <img src="/C:/Users/Invicta/Documents/PUC/8%BA%20PER%CDODO/TCC/Site/Index/Imagens/teclado_abnt.png" width="600" vspace="10%" usemap="#botaoTeclado"/>
+                <map name = "botaoTeclado">
+                <area shape = "rect" alt="Bot'" coords = "0, 0, 50, 50" href="javascript: imgLetra('a')"/>
+                <area shape = "rect" alt="Bot1" coords = "50, 50, 150, 150" href="index2.html"/>
+                </map>
+
+                    <!--<audio id="player" src="sound.mp3"></audio>
+                    <div>
+                    <button onclick="document.getElementById('player').play()">Play</button>
+                    <button onclick="document.getElementById('player').pause()">Pause</button>
+                    <button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
+                    <button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
+                    </div>-->
+            </section>
+
+
+           <!--  <article>
+            </article> -->
+            <footer>
+           Icaro Guerra 2015, Todos os Direitos Reservados
+            </footer>
+   
+        
+
+
+</body></html>
